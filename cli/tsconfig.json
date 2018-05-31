@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig_base.json",
+  "compilerOptions": {
+    "outFile": "../bin/cli.js"
+  },
+  "references": [
+    {
+      "path": "../utils",
+      "prepend": true
+    },
+    {
+      "path": "../converter",
+      "prepend": true
+    }
+  ]
+}
