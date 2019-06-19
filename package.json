@@ -1,7 +1,6 @@
 {
   "name": "project-references-outfile-modules",
   "scripts": {
-    "tsc": "tsc",
     "build": "tsc -b src",
     "clean": "tsc -b --clean src"
   },
