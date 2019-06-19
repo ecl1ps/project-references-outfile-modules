@@ -1,0 +1,11 @@
+{
+  "name": "project-references-outfile-modules",
+  "scripts": {
+    "tsc": "tsc",
+    "build": "tsc -b",
+    "clean": "tsc -b --clean"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.1"
+  }
+}
