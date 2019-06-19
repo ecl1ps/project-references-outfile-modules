@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "outFile": "../../dist/tests.js"
+  },
+  "references": [
+    { "path": "../utils", "prepend": true }
+  ]
+}

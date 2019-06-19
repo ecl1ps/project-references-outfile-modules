@@ -1,9 +1,9 @@
 {
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
-    "outFile": "../dist/tests.js"
+    "outFile": "../../dist/convert.js"
   },
   "references": [
-    { "path": "../utils", "prepend": true }
+    { "path": "../utils" }
   ]
 }

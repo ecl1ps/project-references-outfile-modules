@@ -2,8 +2,8 @@
   "name": "project-references-outfile-modules",
   "scripts": {
     "tsc": "tsc",
-    "build": "tsc -b",
-    "clean": "tsc -b --clean"
+    "build": "tsc -b src",
+    "clean": "tsc -b --clean src"
   },
   "devDependencies": {
     "typescript": "^3.5.1"

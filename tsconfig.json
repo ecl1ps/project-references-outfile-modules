@@ -1,8 +1,0 @@
-{
-    "references": [
-        { "path": "cli" },
-        { "path": "converter" },
-        { "path": "utils" }
-    ],
-    "files": []
-}
