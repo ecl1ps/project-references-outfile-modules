@@ -1,7 +1,6 @@
 {
-  "extends": "../tsconfig_base.json",
+  "extends": "../tsconfig.base.json",
   "compilerOptions": {
-    "outFile": "../bin/utils.js"
+    "outFile": "../dist/utils.js"
   }
-
 }

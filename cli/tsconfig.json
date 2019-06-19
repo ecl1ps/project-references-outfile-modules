@@ -1,7 +1,7 @@
 {
-  "extends": "../tsconfig_base.json",
+  "extends": "../tsconfig.base.json",
   "compilerOptions": {
-    "outFile": "../bin/cli.js"
+    "outFile": "../dist/cli.js"
   },
   "references": [
     {
