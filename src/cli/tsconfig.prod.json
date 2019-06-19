@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.base.prod.json",
+  "compilerOptions": {
+    "outFile": "../../dist/cli.js"
+  },
+  "references": [
+    { "path": "../utils/tsconfig.prod.json", "prepend": true },
+    { "path": "../converter/tsconfig.prod.json", "prepend": true }
+  ]
+}

@@ -2,6 +2,7 @@
   "name": "project-references-outfile-modules",
   "scripts": {
     "build": "tsc -b src",
+    "build:prod": "tsc -b src/tsconfig.prod.json --force",
     "clean": "tsc -b --clean src"
   },
   "devDependencies": {

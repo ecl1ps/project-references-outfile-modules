@@ -4,13 +4,7 @@
     "outFile": "../../dist/cli.js"
   },
   "references": [
-    {
-      "path": "../utils",
-      "prepend": true
-    },
-    {
-      "path": "../converter",
-      "prepend": true
-    }
+    { "path": "../utils", "prepend": true },
+    { "path": "../converter", "prepend": true }
   ]
 }
