@@ -14,10 +14,14 @@
         "watch": "run-p watch:ts watch:less",
         "watch:ts": "npm run compile:ts -- --watch",
         "watch:less": "less-watch-compiler src/ui dist/css index.less",
+        "watch:resources": "npm run copy:resources -- --watch",
+
+        "copy:resources": "cpx resources/** dist",
 
         "clean": "rimraf dist"
     },
     "devDependencies": {
+        "cpx": "^1.5.0",
         "less": "^3.9.0",
         "less-plugin-clean-css": "^1.5.1",
         "less-watch-compiler": "^1.13.0",
