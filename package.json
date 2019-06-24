@@ -1,9 +1,10 @@
 {
   "name": "project-references-outfile-modules",
   "scripts": {
-    "build": "tsc -b src",
-    "build:prod": "tsc -b src/tsconfig.prod.json --force",
-    "clean": "tsc -b --clean src"
+    "build": "tsc --build src",
+    "build:prod": "tsc --build src/tsconfig.prod.json --force",
+    "watch": "npm run build -- --watch",
+    "clean": "npm run build -- --clean"
   },
   "devDependencies": {
     "typescript": "^3.5.1"
