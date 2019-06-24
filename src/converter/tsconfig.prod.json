@@ -1,7 +1,7 @@
 {
   "extends": "../tsconfig.base.prod.json",
   "compilerOptions": {
-    "outFile": "../../dist/convert.js"
+    "outFile": "../../dist/js/convert.js"
   },
   "references": [
     { "path": "../utils/tsconfig.prod.json" }
